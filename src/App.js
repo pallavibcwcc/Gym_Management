@@ -6,20 +6,27 @@ import Navbar from "./component/Navbar";
 // import  img1  from './images/Fitness.png'
 import Login from "./component/Login";
 
-import BasicM from "./component/BasicM";
+
+// import BasicM from "./component/BasicM";
+
+
+import Offer from "./component/Offer";
+// import PBranch from "./component/PBranch";
 
 
 
 const App = () => {
+
+
+  
   return(
     <div>
       <Navbar/>
-   <BasicM/>
+   {/* <BasicM/> */}
+
      <Login/>
-  
-   
-     {/* <img src={img1} alt=''/> */}
-    
+     <Offer/>
+    {/* <PBranch/> */}
    </div>
     
   )
