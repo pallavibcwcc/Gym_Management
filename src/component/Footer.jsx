@@ -5,6 +5,7 @@ const Footer = () => {
         <div>
             <div className="bg-footer"></div>
             <div>
+                <h1 style={{ fontSize: "3rem" }}>hhhhhh</h1>
                 <table>
                     <th>
                         CONTACT US:
@@ -26,7 +27,7 @@ const Footer = () => {
                         <td>offical_pallavigym</td></th>
 
                         <th>OFFLINE VISIT US:
-                        <td>Near shiv Temple-
+                        <td>Near shiv Temple
                             560068</td></th>
 
                             <th>CUSTOMER CARE SUPPORT:
