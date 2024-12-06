@@ -13,8 +13,9 @@ import Login from "./component/Login";
 import Offer from "./component/Offer";
 // import PBranch from "./component/PBranch";
 
-
-
+import Star from "./component/Star";
+import Branch from "./component/Branch";
+import Footer from "./component/Footer"
 const App = () => {
 
 
@@ -26,7 +27,10 @@ const App = () => {
 
      <Login/>
      <Offer/>
+     <Star/>
+     <Branch/>
     {/* <PBranch/> */}
+    <Footer/>
    </div>
     
   )
