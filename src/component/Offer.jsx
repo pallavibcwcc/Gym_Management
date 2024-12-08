@@ -39,12 +39,13 @@ const Offer = () => {
                              <h1>Join Today@$999only</h1>
                              <h2>Avaliable for 24hours</h2>
                          </div>
+                         
          </div>
+         
                         
                  </div>
+                 
             </div>
-       
-        
         </div>
     )
 }

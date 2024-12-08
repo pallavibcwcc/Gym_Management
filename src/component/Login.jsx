@@ -40,9 +40,7 @@ import Button from '@mui/material/Button';
     return(
      
         <div >
-            <div class="bg-image">
-                
-            </div>
+            <div class="bg-image"> </div>
            
         <div className="bg-text">
         <h1 style={{ fontSize: "3rem" }} > Pallavi's Fitness World</h1>
@@ -58,20 +56,21 @@ import Button from '@mui/material/Button';
                         </div>
                 ):(
                     <div className="form-content">
-                        <h1>{isRegsitered?'Login':'Register'}</h1>
+                        <h1>{isRegsitered?'Register':'Login'}</h1>
                         <form>
     <input className="email-inp" type="email" placeholder="email" onChange={(e)=>setEmail(e.target.value)}/>
     <input className="password-inp" type="password" placeholder="password" onChange={(e)=>setPassword(e.target.value)}/>
    
-    <Button variant='contained' onClick={hadleauthentication}>{isRegsitered?'login':'Register'}</Button>
-
-</form>
-<h1>
+    <h1>
     {isRegsitered ? "Don't have an account? Register Now" : "Already have an account Login!"}
 </h1>
 <Button variant='contained' onClick={()=>SetIsReRegsitered(!isRegsitered)}>
     {isRegsitered?"Register" : 'login'}
 </Button>
+   
+
+</form><br></br>
+<Button variant='contained' onClick={hadleauthentication}>{isRegsitered?'login':'Register'}</Button>
         </div>
     )
  }         

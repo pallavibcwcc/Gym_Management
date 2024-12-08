@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import '../Styles/Star.css'
-const Star = () => {
+import '../Styles/Bmi.css'
+const Bmi = () => {
    
         const[height,setHeight]=useState(180);
         const[weight,setWeight]=useState(70);
@@ -32,7 +32,7 @@ const Star = () => {
       <div className="bmi-heading">   <h1>BMI CALCULATOR</h1></div>
      
         <div className="input-section">
-          <p className="input-section">Weight {weight} kg</p>
+          <p className="input-section" style={{ fontSize: "2rem" }}>Weight {weight} kg</p>
           <input className="input-slider" 
           id="acent"
           type="range"
@@ -41,7 +41,7 @@ const Star = () => {
           max="200"
           onChange={onWeightchange}
           />
-          <p className="input-section">Height {height} cm </p>
+          <p className="input-section" style={{ fontSize: "2rem" }}>Height {height} cm </p>
            <input className="input-slider" 
            id="acent"
           type="range"
@@ -51,7 +51,7 @@ const Star = () => {
       
         </div>
         <div className="output-section">
-          <p>Your BMI is:</p>
+          <p style={{ fontSize: "2rem" }}>Your BMI is:</p>
           <p className="output">{output}</p>
       
         </div>
@@ -60,4 +60,4 @@ const Star = () => {
         )
     
 }
-export default Star;
+export default Bmi;

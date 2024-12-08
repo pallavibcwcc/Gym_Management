@@ -2,14 +2,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:50px;
-    cursor: pointer;
+    
     }
   
     .border{
         border-width:2px;
   border-style:solid;
   border-color:blue;
-  /* width:30%; */
   margin-bottom: 500px;
   color:blue;
     }
@@ -23,3 +22,46 @@
         height:50%; */
        
     }    
+    .bg-branch{
+        background-image: url('https://img.freepik.com/free-vector/natural-landscape-background-theme_23-2148650336.jpg?semt=ais_hybrid');
+  height:100vh;
+  width:100vw;
+margin-top: -70px;
+  font-size: 50px;
+  color: white;
+  filter: blur(4px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2; 
+    }
+
+  .f-text{
+       
+        color: white;
+        font-weight: bold;
+       
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin-top:136%;
+      }
+
+      a{
+        color: blueviolet;
+        text-decoration: none;
+      }
+      /* a:visited{
+        color: red;
+      } */
+       a:active{
+        color: black;
+       }
+       a:hover{
+        color: red;
+       }
+    

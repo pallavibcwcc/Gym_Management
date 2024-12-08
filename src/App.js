@@ -13,7 +13,7 @@ import Login from "./component/Login";
 import Offer from "./component/Offer";
 // import PBranch from "./component/PBranch";
 
-import Star from "./component/Star";
+import Bmi from "./component/Bmi";
 import Branch from "./component/Branch";
 import Footer from "./component/Footer"
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
 
      <Login/>
      <Offer/>
-     <Star/>
+     <Bmi/>
      <Branch/>
     {/* <PBranch/> */}
     <Footer/>
